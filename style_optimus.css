@@ -50,7 +50,7 @@
 	background: url("sheet_optimus.png");
 }
 
-.lock1.lock0 .control {
+.lock1.lock0 #control {
 	display: none;
 }
 .control:hover {
