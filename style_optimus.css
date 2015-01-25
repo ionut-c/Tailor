@@ -14,6 +14,46 @@
 	box-shadow: inset 0 0 3px orange !important;
 }
 
+player {
+	background: url("player_walk_down.png");
+	position: absolute;
+	z-index: 1000;
+	width: 64px;
+	height: 64px;
+}
+
+player.down {
+	background: url("player_walk_down.png");
+}
+
+player.up {
+	background: url("player_walk_up.png");
+}
+
+player.left {
+	background: url("player_walk_left.png");
+}
+
+player.right {
+	background: url("player_walk_right.png");
+}
+
+.f1 {
+	background-position: 0 0 !important;
+}
+
+.f2 {
+	background-position: -64px 0 !important;
+}
+
+.f3 {
+	background-position: -128px 0 !important;
+}
+
+.f4 {
+	background-position: -192px 0 !important;
+}
+
 .lock0 .l0 .tile,
 .lock1 .l1 .tile {
 	box-shadow: none !important;
