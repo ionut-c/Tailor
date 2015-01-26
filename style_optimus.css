@@ -1,3 +1,13 @@
+body {
+	cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .l0 .tile {
 	width: 64px;
 	height: 64px;
